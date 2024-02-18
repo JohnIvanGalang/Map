@@ -1,0 +1,147 @@
+/* div {
+    border: solid #00ff00 2px; 
+} */
+
+/* Design for the Registration */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #1b232c !important;
+}
+
+#main {
+    padding: 10%;
+}
+
+
+
+/* Login Container */
+.login-container {
+    border: solid white 2px;
+    border-radius: 1rem;
+    background: #2f2f2f;
+    color: white;
+    padding: 20px;
+    width: 300px;
+}
+/* .login-container:hover {
+    transform: scale(120%);
+    transition: 200ms;
+} */
+.login-text {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.user-input {
+    padding-top: 8%;
+}
+.user-input input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: transparent;
+    border: solid white 1px;
+    border-radius: 1vh;
+}
+
+/* USERNAME and PASSWORD */
+.display-input {
+    color: white;
+    margin-bottom: 3vh;
+}
+.display-password {
+    color: white;
+    margin-bottom: 3vh;
+}
+
+
+
+/* Login Button Section */
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff29a6;
+    color: white;
+    border: none;
+    border-radius:1vh;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background: #42e4e4;
+    transition: 300ms;
+}
+.register-here {
+    color: rgb(106, 218, 246);
+}
+
+/* Sign up Container */
+.signup-text {
+    text-align: center;
+    font-size: 1.5em;
+}
+.signup-container {
+    border: solid white 2px;
+    border-radius: 1rem;
+    background: #2f2f2f;
+    color: white;
+    padding: 20px;
+    width: 300px;
+}
+.al-account {
+    font-size: 14px;
+} 
+/* .signup-container:hover {
+    transform: scale(120%);
+    transition: 200ms;
+} */
+.signup-input input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: transparent;
+    border: solid white 1px;
+    border-radius: 1vh;
+    color: #000000;
+}
+
+
+/*EMAIL ADDRESS, USERNAME, and PASSWORD*/
+.email-input {
+    color: white;
+    margin-bottom: 3vh;
+}
+.username-input {
+    color: white;
+    margin-bottom: 3vh;
+}
+.password-input {
+    color: white;
+    margin-bottom: 3vh;
+}
+
+
+/* Sign Up Button Section */
+.signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff29a6;
+    color: white;
+    border: none;
+    border-radius:1vh;
+    cursor: pointer;
+}
+
+.signup-button:hover {
+    background: #42e4e4;
+    transition: 300ms;
+}
+

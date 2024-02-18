@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Main Design of the Web*/
+body {
+    background: #1b232c;
+    /* overflow: hidden; */
+}
+
+/* Main container */
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#input-search-room {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: transparent;
+    border: solid white 1px;
+    border-radius: 1vh;
+}
+#input-search-room::placeholder {
+    color: #c7c7c7;
+}
+
+
+.room-input {
+    color: white;
+}
+
+/* Search Button */
+.logout-button {
+    /* padding: 2.12vh 1.5vw; */
+    background-color: #ff29a6;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    min-width: 10vw;
+    text-decoration: none;
+}
+.room-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.logout-button:hover {
+    background: #42e4e4;
+    transition: 300ms;
+}
+.search-result-container {
+    display: none;
+    color: #FFFFFF;
+    top: 6.9vh;
+    left: 1vw;
+    width: 86.5%;
+    background-color: #484848;
+    padding: 10px 20px;
+    border-radius: 10px;
+    z-index: 99;
+    /* border: 2px solid red; */
+}
+
+
+/* Map Division */
+.map-container {
+    /* border: 1px solid red; */
+    overflow: auto;
+    width: 650px;
+    height: 500px;
+    background: white;
+}
+.map-container::-webkit-scrollbar{
+    width: 16px;
+}
+.map-container::-webkit-scrollbar-horizontal  {
+    height: 5px;
+}
+.map-container::-webkit-scrollbar-track, .map-container::-webkit-scrollbar-track-horizontal {
+    background: rgb(255, 255, 255);
+}
+.map-container::-webkit-scrollbar-thumb, .map-container::-webkit-scrollbar-thumb-horizontal {
+    background:rgb(255, 96, 96);
+    border-radius: 10px;
+}
+.map-container > img {
+    width: 700px;
+    height: auto;
+    /* transform: rotate(28deg); */
+}
+
+.map-container{
+    flex: 1.5;
+}
+
+/* Zoom Buttons */
+.zoom-buttons {
+    z-index: 100;
+    width: 300px;
+}
+.zoom-buttons button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #ffef15;
+}
+.zoom-buttons button:hover {
+    background: #35b811;
+}
+
+.output-container {
+    border: solid white 2px;
+    border-radius: 1rem;
+    flex: 1;
+    color: #fff;
+    min-width: 35vw;
+    background-color: #1e1e1e;
+}
+.output-container strong {
+    color: #91ff98;
+}
+
+.building-result > img {
+    /* border-radius: 1000px; */
+    display: block;
+    margin: auto;
+    width: 300px;
+} 

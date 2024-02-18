@@ -1,0 +1,21 @@
+const buildings = {
+    "Shared Service Facility for EVSU DTI Retort Food Processing and Packaging Facility Building" : '../static/images/DTI-Building.png',
+    "Foods Enovation Center Building" : '../static/images/DTI-Building.png',
+    "Admin Building & Eng. Building" : '../static/images/Engineering-building.png',
+    "Industrial Technology Building" : '../static/images/industrial-building.png',
+    "Electronics Technology Building" : '../static/images/ECE-Building.png',
+    "Technology Building" : '../static/images/Technology-Building.png',
+    "EVSU Main Library Building" : '../static/images/Library-Building.png',
+    "Graduate School" : '../static/images/Graduate-School-Building.png',
+    "Women's Tech Building / Home Technology Building(HTB)" : '../static/images/HTB-Building.png',
+    "ABS-CBN Building" : '../static/images/ABS-CBN-Building.png',
+    "Office of the Research and Development nad Extension (ORDEX)" : '../static/images/Ordex-Building.png',
+    "College of Arts and Sciences" : '../static/images/CAS-building.png',
+    "EVSU Cooperative" : '',
+    "SASO" : '../static/images/SASO.png',
+    "Gabaldon Building"  : '../static/images/Gabaldon-building.png',
+    "ITTDC Building" : '../static/images/ITTDC-Building.png',
+    "Architecture Building" : '../static/images/CAAD-building.png',
+    "COBE Building" : '../static/images/COBE-building.png',
+    "Auditorium" : '../static/images/Audi-Building.png'
+}
